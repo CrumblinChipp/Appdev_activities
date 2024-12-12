@@ -30,12 +30,11 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(height: 300),
               TextField(
                 decoration: InputDecoration(
-                  prefixIcon: const Icon(Icons.person),
                   hintText: 'Enter Username',
                   filled: true,
                   fillColor: Colors.white,
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(30),
+                    borderRadius: BorderRadius.circular(0),
                     borderSide: BorderSide.none,
                   ),
                 ),
@@ -44,7 +43,6 @@ class LoginScreen extends StatelessWidget {
               TextField(
                 obscureText: true,
                 decoration: InputDecoration(
-                  prefixIcon: const Icon(Icons.lock),
                   hintText: 'Enter Password',
                   filled: true,
                   fillColor: Colors.white,
